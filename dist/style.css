@@ -1,0 +1,28 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: orange;
+}
+
+#img {
+  width: 250px;
+  height: 250px;
+}
+
+#player {
+  box-shadow: 1px 1px 3px #0a1612;
+  margin: 20px;
+  padding: 20px;
+  background-color: gray;
+}
+
+#nav-bar {
+  display: grid;
+  font-family: Impact, Charcoal, sans-serif;
+  text-decoration: overline solid rgb(68, 68, 68);
+  font-style: normal;
+}
+
+body {
+  background-color: orangered;
+}
