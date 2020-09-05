@@ -21,7 +21,7 @@
   <script id="players-template" type="text/x-handlebars-template">
   {{#each data}}
   <div id="player" data-player="{{personId}}" >
-<div class="name" >{{lastName}} {{firstName}}</div></div>
+<div class="name" >{{lastName}} {{firstName}}</div>
 <div id="jersey">{{jersey}}</div>
 <div id="pos">{{pos}} </div>
 <div data-id="{{lastName}}/{{firstName}}"><img id="img" src="https://nba-players.herokuapp.com/players/{{lastName}}/{{firstName}}" onerror= 'this.src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRwkIIsw5Zy9nhPi4jqIOyKjXORdrAgVvC8lg&usqp=CAU"'></div>

@@ -17,11 +17,14 @@
 }
 
 #nav-bar {
-  display: grid;
-  font-family: Impact, Charcoal, sans-serif;
-  text-decoration: overline solid rgb(68, 68, 68);
-  font-style: normal;
+  background-color: rgb(150, 40, 40);
+  justify-items: center;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  border: 3px solid rgb(255, 230, 0)
 }
+
 
 body {
   background-color: orangered;
