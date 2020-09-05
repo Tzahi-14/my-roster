@@ -16,5 +16,13 @@
     "urllib": "^2.36.1"
   },
   "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tzahi-14/my-roster.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tzahi-14/my-roster/issues"
+  },
+  "homepage": "https://github.com/Tzahi-14/my-roster#readme",
   "description": ""
 }
