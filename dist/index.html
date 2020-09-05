@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Balthazar" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Roster</title>
+</head>
+
+<body>
+  <div id="nav-bar">
+    <input type="text" placeholder="Enter tem name" id="team-input">
+    <button id="team-btn">Search</button>
+    <button id="dreamTeam-btn">Dream Team</button>
+  </div>
+
+  <div class="container"></div>
+
+  <script id="players-template" type="text/x-handlebars-template">
+  {{#each data}}
+  <div id="player" data-player="{{personId}}" >
+<div class="name" >{{lastName}} {{firstName}}</div>
+<div id="jersey">{{jersey}}</div>
+<div id="pos">{{pos}} </div>
+<div data-id="{{lastName}}/{{firstName}}"><img id="img" src="https://nba-players.herokuapp.com/players/{{lastName}}/{{firstName}}" onerror= 'this.src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRwkIIsw5Zy9nhPi4jqIOyKjXORdrAgVvC8lg&usqp=CAU"'></div>
+<div class="stats" data-id="{{lastName}}/{{firstName}}"><button id="addPlayer-btn">Add player to dream Team</button><button id="removePlayer-btn">Remove player from dream Team</button></div>
+</div>
+  {{/each}}
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
+  <script src="./jquery/dist/jquery.js"></script>
+  <script src="logic.js"></script>
+  <script src="render.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>

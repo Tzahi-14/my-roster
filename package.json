@@ -1,0 +1,28 @@
+{
+  "name": "my-roster",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "review": "node node_modules/elevation-pr/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "elevation-pr": "^1.3.0",
+    "express": "^4.17.1",
+    "jquery": "^3.5.1",
+    "urllib": "^2.36.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tzahi-14/my-roster.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tzahi-14/my-roster/issues"
+  },
+  "homepage": "https://github.com/Tzahi-14/my-roster#readme",
+  "description": ""
+}
